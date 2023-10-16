@@ -1,9 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-	<ResearchTabDef>
-		<defName>cP</defName>
-		<label>Cupro's Mods</label>
-	</ResearchTabDef>
-
+  <ResearchTabDef>
+    <defName>cP</defName>
+    <label>Cupro's Mods</label>
+  </ResearchTabDef>
 </Defs>

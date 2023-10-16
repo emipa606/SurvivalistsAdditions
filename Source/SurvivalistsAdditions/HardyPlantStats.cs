@@ -1,14 +1,14 @@
 ﻿using Verse;
 
-namespace SurvivalistsAdditions {
+namespace SurvivalistsAdditions;
 
-	public class HardyPlantStats : DefModExtension {
+public class HardyPlantStats : DefModExtension
+{
+    public readonly float maxGrowthTemperature = 45f;
+    public readonly float maxOptimalGrowthTemperature = 35f;
+    public readonly float minGrowthTemperature = -10f;
+    public readonly float minOptimalGrowthTemperature = 0f;
+    public float maxLeaflessTemperature = -12f;
 
-		public float minLeaflessTemperature = -18f;
-		public float maxLeaflessTemperature = -12f;
-		public float minGrowthTemperature = -10f;
-		public float minOptimalGrowthTemperature = 0f;
-		public float maxOptimalGrowthTemperature = 35f;
-		public float maxGrowthTemperature = 45f;
-	}
+    public float minLeaflessTemperature = -18f;
 }

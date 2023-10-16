@@ -1,0 +1,5 @@
+# Changelog for SurvivalistsAdditions
+
+1.4.1 - Updated for 1.4, replaced Universal Fermenter with Processor Framework..
+Used DeepL to update translations for ChineseSimplified, French, German
+

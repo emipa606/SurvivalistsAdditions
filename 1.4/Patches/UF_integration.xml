@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Patch us into the BarrelProcessor -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "BarrelProcessor"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/processes</xpath>
+    <value>
+      <li>SRV_Cheese_Process</li>
+      <li>SRV_Vinegar_Process</li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,20 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Survivalist's Additions</name>
+  <name>Survivalist's Additions (Continued)</name>
+  <packageId>Mlie.SurvivalistsAdditions</packageId>
   <author>mantrasong</author>
-  <url>https://ludeon.com/forums/index.php?topic=32190</url>
+  <url>https://github.com/emipa606/SurvivalistsAdditions</url>
   <supportedVersions>
-	<li>1.0</li>
-	<li>1.1</li>
-	<li>1.2</li>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
-  <packageId>Mantrasong.SurvAdd.1</packageId>
   <modDependencies>
-	<li>
-		<packageId>syrchalis.universalfermenter</packageId>
-		<displayName>[SYR] Universal Fermenter</displayName>
-		<steamWorkshopUrl>steam://url/CommunityFilePage/2073225100</steamWorkshopUrl>
-	</li>
-	</modDependencies>
-  <description>Adds new features for primitive and tribal playthroughs.</description>
+    <li>
+      <packageId>syrchalis.processor.framework</packageId>
+      <displayName>[SYR] Processor Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2633514537</steamWorkshopUrl>
+      <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>syrchalis.processor.framework</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of cuproPandas mod https://steamcommunity.com/sharedfiles/filedetails/?id=1207562628
+based on the update by mantrasong https://steamcommunity.com/sharedfiles/filedetails/?id=1550854139
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/SurvivalistsAdditions][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Adds new features for primitive and tribal playthroughs.
+
+[h1]Workshop ID:[/h1]
+1207562628
+
+[h1]Items Added:[/h1]
+[b]Charcoal:[/b] Made in a charcoal pit. Used as fuel for the grill, smoker, and forge.
+[b]Grilled Meals: [/b]Come in three varieties: Meat, Veg, and Fine. Provide a small mood bonus, but are slightly more time consuming to make.
+[b]Curdled Milk: [/b]Milk that has been curdled with vinegar to make cheese. Made at the brewery.
+[b]Cheese: [/b]A processed food made from milk. Has a good flavor and lasts 21 days before rotting.
+[b]Smoked Meat:[/b] Like grilled meals, but last for 20 days before rotting.
+[b]Smoked Cheese:[/b] Like smoked meat, but made of cheese.
+[b]Turnip:[/b] Yields both turnips and turnip greens. Turnips last for a long time, but the greens don't.
+[b]Cabbage:[/b] Able to survive and grow in winter temperatures.
+[b]Prickly Pear:[/b] Fruit from cacti.
+[b]Turnip Salad:[/b] 5 turnip greens can be combined with 5 vegetables to make a salad.
+[b]Cabbage Salad:[/b] 5 cabbage can be combined with 5 vegetables to make a salad.
+[b]Vinegar:[/b] Fermented berries provide a liquid for preserving vegetables.
+[b]Pickled Vegetables:[/b] By combining vinegar with turnips or cabbage, the food can be preserved to last indefinitely.
+[b]Shemagh:[/b] A large cloth wrapped around the head which can cover the face when needed. Helps insulate the wearer from the elements.
+[b]Jute Fiber:[/b] Used to make burlap fabric.
+[b]Burlap:[/b] A scratchy fabric that can be worn at a cost to mood.
+[b]Rimshroom:[/b] Rarely spawning mushrooms that are high in protein.
+
+[h1]Objects Added:[/h1]
+[b]Grill:[/b] Alternative to the campfire for powerless meal production. Can be used to make 2 meals at a time.
+[b]Shelter Door:[/b] Quick to open, but quick to destroy. Can only be made out of wood.
+[b]Shelter Wall:[/b] Cheap and quick to build, but quick to destroy.
+[b]Shelter Heater:[/b] Cheap wood heater that lasts for a night.
+[b]Charcoal Pit:[/b] A pit dug into the ground for burning wood into charcoal.
+[b]Smoker:[/b] Stone building that can be used to slowly cook meats and/or cheese, preserving them for a long period of time.
+[b]Forge:[/b] Allows crafting metal weapons using charcoal.
+[b]Bellows:[/b] Speeds up the crafting speed of the forge and charcoal pit.
+[b]Vinegar Barrel:[/b] Allows berries to be fermented into vinegar.
+[b]Cheese Barrel:[/b] Allows curdled milk to be made into cheese.
+[b]Camp Table:[/b] A lightweight table for making simple things like a shemagh, salads, or pickles.
+[b]Camp Butcher Table:[/b] A lightweight table for butchering animals.
+[b]Snare:[/b] Used as automated hunting, will catch and kill small animals that wander into it.
+
+[h1]Other Features:[/h1]
+[b]Hardy Plants:[/b] Turnips and Cabbage can be grown in colder temperatures than normal plants.
+
+
+
+[h1]Save Compatability[/h1]
+This mod can be added to existing saves.
+Always back up your saves before adding new mods as there is always the possibility for issues.
+
+[h1]Mod Compatability[/h1]
+[b]Medieval Times:[/b] Coal is usable in the Forge, Grilled Meals available at the Stone Hearth, other recipes added to Food Prep Station
+[b]SeedsPlease:[/b] Seeds added for Turnip, Cabbage, and Jute
+[b]Zen Garden:[/b] Saguaro Cactus can be grown in an Orchard Zone to produce Prickly Pear; Cherries, Persimmon, and Crabapple can be used to make Vinegar 
+[b]Glowstone:[/b] Forge can be used to weld Glowstones and make Glowstone Tiles.
+[b]Cupro's Alloys:[/b] Forge/Crucible can be used to make alloys
+No known issues yet, please report any issues
+
+[h1]Older Versions and Update Notes[/h1]
+All versions of this mod can be found on my [url=https://github.com/cuproPanda/Survivalists-Additions/releases]GitHub[/url]. Each release has info on what has changed from the previous release.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
 </ModMetaData>

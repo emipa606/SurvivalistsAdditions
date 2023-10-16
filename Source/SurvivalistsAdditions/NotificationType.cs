@@ -1,9 +1,9 @@
-﻿namespace SurvivalistsAdditions {
+﻿namespace SurvivalistsAdditions;
 
-	public enum NotificationType {
-		None,
-		SilentText,
-		TextWithSound,
-		Letter
-	}
+public enum NotificationType
+{
+    None,
+    SilentText,
+    TextWithSound,
+    Letter
 }
