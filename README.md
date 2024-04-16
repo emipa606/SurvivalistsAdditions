@@ -5,6 +5,8 @@
 Update of cuproPandas mod https://steamcommunity.com/sharedfiles/filedetails/?id=1207562628
 based on the update by mantrasong https://steamcommunity.com/sharedfiles/filedetails/?id=1550854139
 
+- Replaced Universal Fermenter with Processor Framework.
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -72,10 +74,6 @@ Always back up your saves before adding new mods as there is always the possibil
 **Cupro's Alloys:** Forge/Crucible can be used to make alloys
 No known issues yet, please report any issues
 
-# Older Versions and Update Notes
-
-All versions of this mod can be found on my https://github.com/cuproPanda/Survivalists-Additions/releases]GitHub. Each release has info on what has changed from the previous release.
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -88,4 +86,7 @@ All versions of this mod can be found on my https://github.com/cuproPanda/Surviv
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3052462368]![Image](https://img.shields.io/github/v/release/emipa606/SurvivalistsAdditions?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

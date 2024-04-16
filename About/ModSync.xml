@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>84ba6239-d8bd-48dd-8b67-2c4954542daf</ID>
   <ModName>Survivalist's Additions (Continued)</ModName>
-  <Version>1.4.1</Version>
+  <Version>1.5.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
-

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ZARS Tribalism</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ProcessorFramework.ProcessDef[defName = "SRV_SmokedMeat_Process"]/ingredientFilter/disallowedThingDefs</xpath>
+          <value>
+            <li>Tam_SmokedMeat</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

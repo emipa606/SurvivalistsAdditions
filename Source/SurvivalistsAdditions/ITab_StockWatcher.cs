@@ -24,7 +24,7 @@ public class ITab_StockWatcher : ITab
         GUI.BeginGroup(fullRect);
 
         Widgets.Label(leftRect, "Pause at: ");
-        MinimumToAdd = (int)Widgets.HorizontalSlider_NewTemp(rightRect, MinimumToAdd, 1, 50);
+        MinimumToAdd = (int)Widgets.HorizontalSlider(rightRect, MinimumToAdd, 1, 50);
 
         GenUI.AbsorbClicksInRect(fullRect);
         GUI.EndGroup();

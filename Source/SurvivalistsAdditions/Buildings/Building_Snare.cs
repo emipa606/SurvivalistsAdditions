@@ -7,7 +7,7 @@ namespace SurvivalistsAdditions;
 
 public class Building_Snare : Building_TrapDamager
 {
-    private readonly List<Pawn> touchingPawns = new List<Pawn>();
+    private readonly List<Pawn> touchingPawns = [];
     private Pawn affectedPawn;
     private bool rearmAfterCleared;
     public float stunDuration = 20;

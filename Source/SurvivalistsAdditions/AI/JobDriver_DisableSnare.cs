@@ -24,7 +24,7 @@ public class JobDriver_DisableSnare : JobDriver
         {
             initAction = delegate
             {
-                var unused = (Building_Snare)GetActor().CurJob.GetTarget(TargetIndex.A).Thing;
+                _ = (Building_Snare)GetActor().CurJob.GetTarget(TargetIndex.A).Thing;
                 //snare.Disable();
             },
             defaultCompleteMode = ToilCompleteMode.Instant

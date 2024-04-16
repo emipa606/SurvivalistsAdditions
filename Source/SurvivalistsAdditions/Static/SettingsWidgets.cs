@@ -8,7 +8,7 @@ public static class SettingsWidgets
 {
     public static void IntSlider(Rect rect, ref int value, int minValue, int maxValue, int roundTo = 1)
     {
-        value = RoundToAsInt(roundTo, Widgets.HorizontalSlider_NewTemp(
+        value = RoundToAsInt(roundTo, Widgets.HorizontalSlider(
             new Rect(rect.xMin + rect.height + 10f, rect.y, rect.width - ((rect.height * 2) + 20f), rect.height),
             value, minValue, maxValue, true));
     }
@@ -18,11 +18,11 @@ public static class SettingsWidgets
         int roundTo = 1, float floatRound = -1f)
     {
         value = rounded
-                ? RoundToAsInt(roundTo, Widgets.HorizontalSlider_NewTemp(
+                ? RoundToAsInt(roundTo, Widgets.HorizontalSlider(
                     new Rect(rect.xMin + rect.height + 10f, rect.y, rect.width - ((rect.height * 2) + 20f),
                         rect.height),
                     value, minValue, maxValue, true, roundTo: floatRound))
-                : Widgets.HorizontalSlider_NewTemp(
+                : Widgets.HorizontalSlider(
                     new Rect(rect.xMin + rect.height + 10f, rect.y, rect.width - ((rect.height * 2) + 20f),
                         rect.height),
                     value, minValue, maxValue, true, roundTo: floatRound)

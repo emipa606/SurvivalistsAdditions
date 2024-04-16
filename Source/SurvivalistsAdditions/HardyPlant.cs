@@ -91,23 +91,6 @@ public class HardyPlant : Plant
     }
 
 
-    // Display additional info on the inspect window that isn't shown normally
-    //TODO this has been moved to CompProperties
-    //public override IEnumerable<StatDrawEntry> SpecialDisplayStats
-    //{
-    //    get
-    //    {
-    //        foreach (StatDrawEntry entry in base.SpecialDisplayStats)
-    //        {
-    //            yield return entry;
-    //        }
-
-    //        yield return new StatDrawEntry(StatCategoryDefOf.PawnMisc, $"{"TabGrowing".Translate()} {Static.TemperatureRangeLower}", $"{Ext.minGrowthTemperature.ToStringTemperature("F0")} ~ {Ext.maxGrowthTemperature.ToStringTemperature("F0")}");
-    //        yield return new StatDrawEntry(StatCategoryDefOf.PawnMisc, $"{"Healthy".Translate()} {Static.TemperatureRangeLower}", $"{Ext.minLeaflessTemperature.ToStringTemperature("F0")} ~ {100f.ToStringTemperature("F0")}");
-    //    }
-    //}
-
-
     public bool GrowthSeasonNow(IntVec3 c, Map map)
     {
         var roomOrAdjacent = c.GetRoomOrAdjacent(map, RegionType.Set_All);
@@ -156,7 +139,7 @@ public class HardyPlant : Plant
             if ((!isMature && LifeStage == PlantLifeStage.Mature || (int)(num * 10f) != (int)(growthInt * 10f)) &&
                 CurrentlyCultivated())
             {
-                Map.mapDrawer.MapMeshDirty(Position, MapMeshFlag.Things);
+                Map.mapDrawer.MapMeshDirty(Position, MapMeshFlagDefOf.Things);
             }
 
             if (def.plant.LimitedLifespan)

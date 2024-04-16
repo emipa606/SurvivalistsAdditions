@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FleckDef[defName="Owl_Vapor"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SRV_Grill"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <fleckDef>Owl_Vapor</fleckDef>
+              <billsOnly>true</billsOnly>
+              <particleSize>0.45</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SRV_Forge"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <fleckDef>Owl_Vapor</fleckDef>
+              <billsOnly>true</billsOnly>
+              <particleSize>0.5</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SRV_Smoker"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <fleckDef>Owl_Vapor</fleckDef>
+              <billsOnly>true</billsOnly>
+              <particleSize>0.75</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="SRV_ShelterHeater"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <fleckDef>Owl_Vapor</fleckDef>
+              <particleSize>0.25</particleSize>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
