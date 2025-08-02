@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SRV_ModName>Survivalist's Additions</SRV_ModName>
   <SRV_NoIngredient>need ingredients</SRV_NoIngredient>
@@ -35,22 +35,22 @@
   <SRV_ContainsCharcoal>Contains {0} / {1} charcoal.</SRV_ContainsCharcoal>
   <SRV_Charred>Charred</SRV_Charred>
   <!-- Settings Labels -->
-  <SRV_Label_VinegarBarrel_MaxCapacity>Vinegar barrel, max capacity: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_VinegarBarrel_MaxCapacity>
-  <SRV_Label_VinegarBarrel_FermentDays>Vinegar barrel, ferment days: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_VinegarBarrel_FermentDays>
-  <SRV_Label_CheeseBarrel_MaxCapacity>Cheese barrel, max capacity: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_CheeseBarrel_MaxCapacity>
-  <SRV_Label_CheeseBarrel_AgingDays>Cheese barrel, aging days: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_CheeseBarrel_AgingDays>
-  <SRV_Label_Smoker_MaxCapacity>Smoker, max capacity: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_Smoker_MaxCapacity>
-  <SRV_Label_Smoker_SmokeHours>Smoker, hours to cook: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt; </SRV_Label_Smoker_SmokeHours>
-  <SRV_Label_Smoker_TendHours>Smoker, hours before tending: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_Smoker_TendHours>
-  <SRV_Label_CharcoalPit_MaxCapacity>Charcoal pit, max capacity: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_CharcoalPit_MaxCapacity>
-  <SRV_Label_CharcoalPit_BurnHours>Charcoal pit, hours to burn: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_CharcoalPit_BurnHours>
-  <SRV_Label_CharcoalPit_CharcoalPerWoodLog>Charcoal pit, charcoal per wood log: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_CharcoalPit_CharcoalPerWoodLog>
-  <SRV_Label_Snare_FailChance>Snare, fail chance: Difficulty x &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</SRV_Label_Snare_FailChance>
-  <SRV_Label_Snare_BreakChance>Snare, break chance: Difficulty x &lt;b&gt;&lt;color=orange&gt;{0}%&lt;/color&gt;&lt;/b&gt;</SRV_Label_Snare_BreakChance>
+  <SRV_Label_VinegarBarrel_MaxCapacity>Vinegar barrel, max capacity: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_VinegarBarrel_MaxCapacity>
+  <SRV_Label_VinegarBarrel_FermentDays>Vinegar barrel, ferment days: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_VinegarBarrel_FermentDays>
+  <SRV_Label_CheeseBarrel_MaxCapacity>Cheese barrel, max capacity: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_CheeseBarrel_MaxCapacity>
+  <SRV_Label_CheeseBarrel_AgingDays>Cheese barrel, aging days: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_CheeseBarrel_AgingDays>
+  <SRV_Label_Smoker_MaxCapacity>Smoker, max capacity: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_Smoker_MaxCapacity>
+  <SRV_Label_Smoker_SmokeHours>Smoker, hours to cook: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b> </SRV_Label_Smoker_SmokeHours>
+  <SRV_Label_Smoker_TendHours>Smoker, hours before tending: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_Smoker_TendHours>
+  <SRV_Label_CharcoalPit_MaxCapacity>Charcoal pit, max capacity: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_CharcoalPit_MaxCapacity>
+  <SRV_Label_CharcoalPit_BurnHours>Charcoal pit, hours to burn: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_CharcoalPit_BurnHours>
+  <SRV_Label_CharcoalPit_CharcoalPerWoodLog>Charcoal pit, charcoal per wood log: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_CharcoalPit_CharcoalPerWoodLog>
+  <SRV_Label_Snare_FailChance>Snare, fail chance: Difficulty x &lt;b>&lt;color=orange>{0}%&lt;/color>&lt;/b></SRV_Label_Snare_FailChance>
+  <SRV_Label_Snare_BreakChance>Snare, break chance: Difficulty x &lt;b>&lt;color=orange>{0}%&lt;/color>&lt;/b></SRV_Label_Snare_BreakChance>
   <SRV_Label_Snare_AllowPositive>Snare, allow positive notifications</SRV_Label_Snare_AllowPositive>
   <SRV_Label_Snare_AllowNegative>Snare, allow negative notifications</SRV_Label_Snare_AllowNegative>
   <SRV_Label_Snare_NotificationType>Snare, notification type</SRV_Label_Snare_NotificationType>
-  <SRV_Label_GenStep_PlantDensity>WorldGen, jute and hayreed spawn multiplier: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</SRV_Label_GenStep_PlantDensity>
+  <SRV_Label_GenStep_PlantDensity>WorldGen, jute and hayreed spawn multiplier: &lt;b>&lt;color=orange>{0}&lt;/color>&lt;/b></SRV_Label_GenStep_PlantDensity>
   <!-- Settings Tooltips -->
   <SRV_ToolTip_VinegarBarrel_MaxCapacity>The maximum amount of vinegar juice that can ferment in the vinegar barrel at once.</SRV_ToolTip_VinegarBarrel_MaxCapacity>
   <SRV_ToolTip_VinegarBarrel_FermentDays>How many days it takes to ferment vinegar juice into vinegar.</SRV_ToolTip_VinegarBarrel_FermentDays>

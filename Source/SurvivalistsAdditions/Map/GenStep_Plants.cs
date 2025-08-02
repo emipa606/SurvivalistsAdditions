@@ -1,5 +1,6 @@
 ﻿using System;
 using RimWorld;
+using RimWorld.Planet;
 using Verse;
 
 namespace SurvivalistsAdditions;
@@ -12,7 +13,8 @@ public class GenStep_Plants : GenStep
     {
         // Adjust the amount of plants to spawn
         var timesToSpawn = (int)(map.Size.x / 25f * map.Biome.plantDensity *
-                                 (map.TileInfo.Rivers.NullOrEmpty() ? 2.5f : 5f) * SrvSettings.GenStep_PlantDensity);
+                                 (((SurfaceTile)map.TileInfo).Rivers.NullOrEmpty() ? 2.5f : 5f) *
+                                 SrvSettings.GenStep_PlantDensity);
 
         // Validate water cells
         Predicate<IntVec3> validWater = c => c.GetEdifice(map) == null && !c.Roofed(map) &&
@@ -71,7 +73,8 @@ public class GenStep_Plants : GenStep
     }
 
 
-    private void ClusterAround(IntVec3 intVec, float radius, Map map, Predicate<IntVec3> validator, ThingDef thingDef)
+    private static void ClusterAround(IntVec3 intVec, float radius, Map map, Predicate<IntVec3> validator,
+        ThingDef thingDef)
     {
         foreach (var current in GenRadial.RadialCellsAround(intVec, radius, true))
         {

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate grilled meal -->
+  <SRV_AteGrilledMeal.stages.ate_grilled_meal.label>ate grilled meal</SRV_AteGrilledMeal.stages.ate_grilled_meal.label>
+  <!-- EN: I ate a smoky grilled meal. -->
+  <SRV_AteGrilledMeal.stages.ate_grilled_meal.description>I ate a smoky grilled meal.</SRV_AteGrilledMeal.stages.ate_grilled_meal.description>
+  <!-- EN: ate grilled meal -->
+  <SRV_AteGrilledMealFine.stages.ate_grilled_meal.label>ate grilled meal</SRV_AteGrilledMealFine.stages.ate_grilled_meal.label>
+  <!-- EN: I ate a wonderful grilled meal. Yum! -->
+  <SRV_AteGrilledMealFine.stages.ate_grilled_meal.description>I ate a wonderful grilled meal. Yum!</SRV_AteGrilledMealFine.stages.ate_grilled_meal.description>
+  <!-- EN: ate pickled vegetables -->
+  <SRV_AtePickledVeggies.stages.ate_pickled_vegetables.label>ate pickled vegetables</SRV_AtePickledVeggies.stages.ate_pickled_vegetables.label>
+  <!-- EN: Those pickled vegetables added a spark of flavor that's very hard to come by. -->
+  <SRV_AtePickledVeggies.stages.ate_pickled_vegetables.description>Those pickled vegetables added a spark of flavor that's very hard to come by.</SRV_AtePickledVeggies.stages.ate_pickled_vegetables.description>
+  <!-- EN: ate raw turnip -->
+  <SRV_AteRawTurnip.stages.ate_raw_turnip.label>ate raw turnip</SRV_AteRawTurnip.stages.ate_raw_turnip.label>
+  <!-- EN: I had to eat raw turnips. They weren't too bad, but I'd prefer them cooked. -->
+  <SRV_AteRawTurnip.stages.ate_raw_turnip.description>I had to eat raw turnips. They weren't too bad, but I'd prefer them cooked.</SRV_AteRawTurnip.stages.ate_raw_turnip.description>
+  <!-- EN: ate smoked cheese -->
+  <SRV_AteSmokedCheese.stages.ate_smoked_cheese.label>ate smoked cheese</SRV_AteSmokedCheese.stages.ate_smoked_cheese.label>
+  <!-- EN: I ate some flavorful smoked cheese. -->
+  <SRV_AteSmokedCheese.stages.ate_smoked_cheese.description>I ate some flavorful smoked cheese.</SRV_AteSmokedCheese.stages.ate_smoked_cheese.description>
+  <!-- EN: initial-hidden -->
+  <SRV_AteSmokedMeat.stages.initialhidden.label>initial-hidden</SRV_AteSmokedMeat.stages.initialhidden.label>
+  <!-- EN: Should not appear. -->
+  <SRV_AteSmokedMeat.stages.initialhidden.description>Should not appear.</SRV_AteSmokedMeat.stages.initialhidden.description>
+  <!-- EN: ate smoked meat -->
+  <SRV_AteSmokedMeat.stages.ate_smoked_meat.label>ate smoked meat</SRV_AteSmokedMeat.stages.ate_smoked_meat.label>
+  <!-- EN: I ate some flavorful smoked meat. It was delicious! -->
+  <SRV_AteSmokedMeat.stages.ate_smoked_meat.description>I ate some flavorful smoked meat. It was delicious!</SRV_AteSmokedMeat.stages.ate_smoked_meat.description>
+  <!-- EN: meal included pickled vegetables -->
+  <SRV_FoodMadeWithPickledIngredient.stages.meal_included_pickled_vegetables.label>meal included pickled vegetables</SRV_FoodMadeWithPickledIngredient.stages.meal_included_pickled_vegetables.label>
+  <!-- EN: I ate a meal made with pickled vegetables. It helped break up the blandness. -->
+  <SRV_FoodMadeWithPickledIngredient.stages.meal_included_pickled_vegetables.description>I ate a meal made with pickled vegetables. It helped break up the blandness.</SRV_FoodMadeWithPickledIngredient.stages.meal_included_pickled_vegetables.description>
+  <!-- EN: meal included smoked cheese -->
+  <SRV_FoodMadeWithSmokedCheese.stages.meal_included_smoked_cheese.label>meal included smoked cheese</SRV_FoodMadeWithSmokedCheese.stages.meal_included_smoked_cheese.label>
+  <!-- EN: I ate a meal made with tasty smoked cheese. -->
+  <SRV_FoodMadeWithSmokedCheese.stages.meal_included_smoked_cheese.description>I ate a meal made with tasty smoked cheese.</SRV_FoodMadeWithSmokedCheese.stages.meal_included_smoked_cheese.description>
+  <!-- EN: meal included smoked meat -->
+  <SRV_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.label>meal included smoked meat</SRV_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.label>
+  <!-- EN: I ate a meal made with smoked meat. Yum! -->
+  <SRV_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.description>I ate a meal made with smoked meat. Yum!</SRV_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.description>
+  <!-- EN: wearing burlap {0} -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap.label>wearing burlap {0}</SRV_WearingBurlapApparel.stages.wearing_burlap.label>
+  <!-- EN: I am wearing burlap apparel. It's itchy and uncomfortable. -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap.description>I am wearing burlap apparel. It's itchy and uncomfortable.</SRV_WearingBurlapApparel.stages.wearing_burlap.description>
+  <!-- EN: wearing burlap {0} (+1) -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_1.label>wearing burlap {0} (+1)</SRV_WearingBurlapApparel.stages.wearing_burlap_1.label>
+  <!-- EN: I am wearing two pieces of burlap apparel. They are itchy and uncomfortable. -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_1.description>I am wearing two pieces of burlap apparel. They are itchy and uncomfortable.</SRV_WearingBurlapApparel.stages.wearing_burlap_1.description>
+  <!-- EN: wearing burlap {0} (+2) -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_2.label>wearing burlap {0} (+2)</SRV_WearingBurlapApparel.stages.wearing_burlap_2.label>
+  <!-- EN: I am wearing three pieces of burlap apparel. They are itchy and uncomfortable. -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_2.description>I am wearing three pieces of burlap apparel. They are itchy and uncomfortable.</SRV_WearingBurlapApparel.stages.wearing_burlap_2.description>
+  <!-- EN: wearing burlap {0}, etc. -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_etc.label>wearing burlap {0}, etc.</SRV_WearingBurlapApparel.stages.wearing_burlap_etc.label>
+  <!-- EN: I am wearing more than three pieces of burlap apparel. They are itchy and uncomfortable. -->
+  <SRV_WearingBurlapApparel.stages.wearing_burlap_etc.description>I am wearing more than three pieces of burlap apparel. They are itchy and uncomfortable.</SRV_WearingBurlapApparel.stages.wearing_burlap_etc.description>
+</LanguageData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: grill fine meal -->
+  <SRV_GrillMealFine.label>grill fine meal</SRV_GrillMealFine.label>
+  <!-- EN: Prepares a fine grilled meal. Takes a while, but adds a good flavor. -->
+  <SRV_GrillMealFine.description>Prepares a fine grilled meal. Takes a while, but adds a good flavor.</SRV_GrillMealFine.description>
+  <!-- EN: Grilling. -->
+  <SRV_GrillMealFine.jobString>Grilling.</SRV_GrillMealFine.jobString>
+  <!-- EN: grill meat (1) -->
+  <SRV_GrillMealMeat.label>grill meat (1)</SRV_GrillMealMeat.label>
+  <!-- EN: Prepares a grilled meal consisting of meat. Takes a while, but adds a good flavor. -->
+  <SRV_GrillMealMeat.description>Prepares a grilled meal consisting of meat. Takes a while, but adds a good flavor.</SRV_GrillMealMeat.description>
+  <!-- EN: Grilling. -->
+  <SRV_GrillMealMeat.jobString>Grilling.</SRV_GrillMealMeat.jobString>
+  <!-- EN: grill meat (2) -->
+  <SRV_GrillMealMeatDouble.label>grill meat (2)</SRV_GrillMealMeatDouble.label>
+  <!-- EN: Prepares two grilled meals consisting of meat. Takes a while, but adds a good flavor. -->
+  <SRV_GrillMealMeatDouble.description>Prepares two grilled meals consisting of meat. Takes a while, but adds a good flavor.</SRV_GrillMealMeatDouble.description>
+  <!-- EN: Grilling. -->
+  <SRV_GrillMealMeatDouble.jobString>Grilling.</SRV_GrillMealMeatDouble.jobString>
+  <!-- EN: grill vegetarian (1) -->
+  <SRV_GrillMealVeg.label>grill vegetarian (1)</SRV_GrillMealVeg.label>
+  <!-- EN: Prepares a grilled meal consisting of vegetables. Takes a while, but adds a good flavor. -->
+  <SRV_GrillMealVeg.description>Prepares a grilled meal consisting of vegetables. Takes a while, but adds a good flavor.</SRV_GrillMealVeg.description>
+  <!-- EN: Grilling. -->
+  <SRV_GrillMealVeg.jobString>Grilling.</SRV_GrillMealVeg.jobString>
+  <!-- EN: grill vegetarian (2) -->
+  <SRV_GrillMealVegDouble.label>grill vegetarian (2)</SRV_GrillMealVegDouble.label>
+  <!-- EN: Prepares two grilled meals consisting of vegetables. Takes a while, but adds a good flavor. -->
+  <SRV_GrillMealVegDouble.description>Prepares two grilled meals consisting of vegetables. Takes a while, but adds a good flavor.</SRV_GrillMealVegDouble.description>
+  <!-- EN: Grilling. -->
+  <SRV_GrillMealVegDouble.jobString>Grilling.</SRV_GrillMealVegDouble.jobString>
+  <!-- EN: pickle vegetables -->
+  <SRV_PickleGeneric.label>pickle vegetables</SRV_PickleGeneric.label>
+  <!-- EN: Preserve vegetables or fruit in vinegar. Can be eaten by itself, or used in meals. -->
+  <SRV_PickleGeneric.description>Preserve vegetables or fruit in vinegar. Can be eaten by itself, or used in meals.</SRV_PickleGeneric.description>
+  <!-- EN: Pickling. -->
+  <SRV_PickleGeneric.jobString>Pickling.</SRV_PickleGeneric.jobString>
+  <!-- EN: prepare turnip salad -->
+  <SRV_PrepSalad.label>prepare turnip salad</SRV_PrepSalad.label>
+  <!-- EN: Prepare a salad using turnip greens and vegetables. -->
+  <SRV_PrepSalad.description>Prepare a salad using turnip greens and vegetables.</SRV_PrepSalad.description>
+  <!-- EN: Chopping. -->
+  <SRV_PrepSalad.jobString>Chopping.</SRV_PrepSalad.jobString>
+  <!-- EN: prepare cabbage salad -->
+  <SRV_PrepSaladCabbage.label>prepare cabbage salad</SRV_PrepSaladCabbage.label>
+  <!-- EN: Prepare a salad using shredded cabbage and vegetables. -->
+  <SRV_PrepSaladCabbage.description>Prepare a salad using shredded cabbage and vegetables.</SRV_PrepSaladCabbage.description>
+  <!-- EN: Chopping. -->
+  <SRV_PrepSaladCabbage.jobString>Chopping.</SRV_PrepSaladCabbage.jobString>
+</LanguageData>

@@ -6,7 +6,7 @@ namespace SurvivalistsAdditions;
 
 public static class SettingsWidgets
 {
-    public static void IntSlider(Rect rect, ref int value, int minValue, int maxValue, int roundTo = 1)
+    private static void IntSlider(Rect rect, ref int value, int minValue, int maxValue, int roundTo = 1)
     {
         value = RoundToAsInt(roundTo, Widgets.HorizontalSlider(
             new Rect(rect.xMin + rect.height + 10f, rect.y, rect.width - ((rect.height * 2) + 20f), rect.height),
@@ -14,7 +14,7 @@ public static class SettingsWidgets
     }
 
 
-    public static void FloatSlider(Rect rect, ref float value, float minValue, float maxValue, bool rounded = false,
+    private static void FloatSlider(Rect rect, ref float value, float minValue, float maxValue, bool rounded = false,
         int roundTo = 1, float floatRound = -1f)
     {
         value = rounded

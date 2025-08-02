@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shelter door -->
+  <SRV_ShelterDoor.label>shelter door</SRV_ShelterDoor.label>
+  <!-- EN: A simple shelter door to separate rooms. Quick to pass through, but quick to destroy. -->
+  <SRV_ShelterDoor.description>A simple shelter door to separate rooms. Quick to pass through, but quick to destroy.</SRV_ShelterDoor.description>
+  <!-- EN: shelter wall -->
+  <SRV_WallShelter.label>shelter wall</SRV_WallShelter.label>
+  <!-- EN: A simple shelter wall made from wood. Capable of holding up a roof, but is easily destroyed. Needs to be manually deconstructed when building in its place. -->
+  <SRV_WallShelter.description>A simple shelter wall made from wood. Capable of holding up a roof, but is easily destroyed. Needs to be manually deconstructed when building in its place.</SRV_WallShelter.description>
+</LanguageData>

@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 52303,
+  "LinesOfXML": 119423,
+  "CodeBaseSize": 83,
+  "LastXmlCleaning": "2025-08-03T00:29:02.8805377+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " tribal",
+    " survival"
+  ]
 }

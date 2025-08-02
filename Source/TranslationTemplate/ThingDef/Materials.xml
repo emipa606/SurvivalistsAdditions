@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: burlap -->
+  <SRV_Burlap.label>burlap</SRV_Burlap.label>
+  <!-- EN: Thick fibrous cloth woven from plant matter. It is a somewhat itchy material, and is best used for outer garments. -->
+  <SRV_Burlap.description>Thick fibrous cloth woven from plant matter. It is a somewhat itchy material, and is best used for outer garments.</SRV_Burlap.description>
+  <!-- EN: charcoal -->
+  <SRV_Charcoal.label>charcoal</SRV_Charcoal.label>
+  <!-- EN: A chunk of wood that has been charred until only carbon remains. Used as fuel for grills and smokers. -->
+  <SRV_Charcoal.description>A chunk of wood that has been charred until only carbon remains. Used as fuel for grills and smokers.</SRV_Charcoal.description>
+  <!-- EN: curdled milk -->
+  <SRV_CurdledMilk.label>curdled milk</SRV_CurdledMilk.label>
+  <!-- EN: Milk that has been safely curdled. This substance needs to ferment and age in a cheese barrel before it becomes edible cheese. -->
+  <SRV_CurdledMilk.description>Milk that has been safely curdled. This substance needs to ferment and age in a cheese barrel before it becomes edible cheese.</SRV_CurdledMilk.description>
+  <!-- EN: jute fibers -->
+  <SRV_JuteFibers.label>jute fibers</SRV_JuteFibers.label>
+  <!-- EN: Long fibers from jute stalks. Can be made into burlap cloth or used as animal feed. -->
+  <SRV_JuteFibers.description>Long fibers from jute stalks. Can be made into burlap cloth or used as animal feed.</SRV_JuteFibers.description>
+  <!-- EN: vinegar -->
+  <SRV_Vinegar.label>vinegar</SRV_Vinegar.label>
+  <!-- EN: A mildly acidic liquid used for pickling vegetables or curdling milk for cheesemaking. -->
+  <SRV_Vinegar.description>A mildly acidic liquid used for pickling vegetables or curdling milk for cheesemaking.</SRV_Vinegar.description>
+  <!-- EN: vinegar juice -->
+  <SRV_VinegarJuice.label>vinegar juice</SRV_VinegarJuice.label>
+  <!-- EN: Concentrated fruit juice. This substance needs to ferment in a fermenting barrel before it becomes usable vinegar. -->
+  <SRV_VinegarJuice.description>Concentrated fruit juice. This substance needs to ferment in a fermenting barrel before it becomes usable vinegar.</SRV_VinegarJuice.description>
+</LanguageData>

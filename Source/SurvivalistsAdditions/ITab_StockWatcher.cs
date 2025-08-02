@@ -12,7 +12,7 @@ public class ITab_StockWatcher : ITab
         labelKey = Static.Label_ITabCharPit;
     }
 
-    public int MinimumToAdd { get; private set; } = 1;
+    private int MinimumToAdd { get; set; } = 1;
 
 
     protected override void FillTab()

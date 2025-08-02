@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: charcoal pit -->
+  <SRV_CharcoalPit.label>charcoal pit</SRV_CharcoalPit.label>
+  <!-- EN: A pit dug into the ground for burning wood in the absence of oxygen. -->
+  <SRV_CharcoalPit.description>A pit dug into the ground for burning wood in the absence of oxygen.</SRV_CharcoalPit.description>
+  <!-- EN: smoker -->
+  <SRV_Smoker.label>smoker</SRV_Smoker.label>
+  <!-- EN: A large stone smoker built for cooking and preserving a large amount of meat. Takes a long time to cook. -->
+  <SRV_Smoker.description>A large stone smoker built for cooking and preserving a large amount of meat. Takes a long time to cook.</SRV_Smoker.description>
+</LanguageData>

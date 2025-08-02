@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: stump chair -->
+  <SRV_StumpChair.label>stump chair</SRV_StumpChair.label>
+  <!-- EN: A stump that has been flattened to sit on. -->
+  <SRV_StumpChair.description>A stump that has been flattened to sit on.</SRV_StumpChair.description>
+  <!-- EN: simple table -->
+  <SRV_TableSimple.label>simple table</SRV_TableSimple.label>
+  <!-- EN: A small table made from bough wood. Just big enough for one person to eat at. -->
+  <SRV_TableSimple.description>A small table made from bough wood. Just big enough for one person to eat at.</SRV_TableSimple.description>
+</LanguageData>

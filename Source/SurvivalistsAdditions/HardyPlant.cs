@@ -37,7 +37,7 @@ public class HardyPlant : Plant
     public override float GrowthRate =>
         GrowthRateFactor_Fertility * HardyGrowthRateFactor_Temperature * GrowthRateFactor_Light;
 
-    public float HardyGrowthRateFactor_Temperature
+    private float HardyGrowthRateFactor_Temperature
     {
         get
         {
@@ -90,25 +90,6 @@ public class HardyPlant : Plant
         }
     }
 
-
-    public bool GrowthSeasonNow(IntVec3 c, Map map)
-    {
-        var roomOrAdjacent = c.GetRoomOrAdjacent(map, RegionType.Set_All);
-        if (roomOrAdjacent == null)
-        {
-            return false;
-        }
-
-        if (roomOrAdjacent.UsesOutdoorTemperature)
-        {
-            return map.weatherManager.growthSeasonMemory.GrowthSeasonOutdoorsNow;
-        }
-
-        var temperature = c.GetTemperature(map);
-        return temperature > Ext.minGrowthTemperature && temperature < Ext.maxGrowthTemperature;
-    }
-
-
     public override void TickLong()
     {
         CheckMakeLeafless();
@@ -117,7 +98,7 @@ public class HardyPlant : Plant
             return;
         }
 
-        if (GrowthSeasonNow(Position, Map))
+        if (PlantUtility.GrowthSeasonNow(Position, Map, def))
         {
             if (!HasEnoughLightToGrow)
             {

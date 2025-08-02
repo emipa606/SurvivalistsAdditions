@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cabbage -->
+  <SRV_Cabbage.label>cabbage</SRV_Cabbage.label>
+  <!-- EN: Raw cabbage. -->
+  <SRV_Cabbage.description>Raw cabbage.</SRV_Cabbage.description>
+  <!-- EN: cheese -->
+  <SRV_Cheese.label>cheese</SRV_Cheese.label>
+  <!-- EN: A food made by coagulating curdled milk. Has a good flavor and lasts for 21 days without refrigeration. -->
+  <SRV_Cheese.description>A food made by coagulating curdled milk. Has a good flavor and lasts for 21 days without refrigeration.</SRV_Cheese.description>
+  <!-- EN: cabbage salad -->
+  <SRV_MealCabbageSalad.label>cabbage salad</SRV_MealCabbageSalad.label>
+  <!-- EN: Fresh garden veggies chopped up and mixed together - hopefully with a clean knife. -->
+  <SRV_MealCabbageSalad.description>Fresh garden veggies chopped up and mixed together - hopefully with a clean knife.</SRV_MealCabbageSalad.description>
+  <!-- EN: grilled meal (fine) -->
+  <SRV_MealGrilledFine.label>grilled meal (fine)</SRV_MealGrilledFine.label>
+  <!-- EN: A smoky meal slowly cooked over an open flame. -->
+  <SRV_MealGrilledFine.description>A smoky meal slowly cooked over an open flame.</SRV_MealGrilledFine.description>
+  <!-- EN: grilled meal (meat) -->
+  <SRV_MealGrilledMeat.label>grilled meal (meat)</SRV_MealGrilledMeat.label>
+  <!-- EN: A smoky meal slowly cooked over an open flame. -->
+  <SRV_MealGrilledMeat.description>A smoky meal slowly cooked over an open flame.</SRV_MealGrilledMeat.description>
+  <!-- EN: grilled meal (vegetarian) -->
+  <SRV_MealGrilledVeg.label>grilled meal (vegetarian)</SRV_MealGrilledVeg.label>
+  <!-- EN: A smoky meal slowly cooked over an open flame. -->
+  <SRV_MealGrilledVeg.description>A smoky meal slowly cooked over an open flame.</SRV_MealGrilledVeg.description>
+  <!-- EN: turnip salad -->
+  <SRV_MealTurnipSalad.label>turnip salad</SRV_MealTurnipSalad.label>
+  <!-- EN: Fresh garden veggies chopped up and mixed together - hopefully with a clean knife. -->
+  <SRV_MealTurnipSalad.description>Fresh garden veggies chopped up and mixed together - hopefully with a clean knife.</SRV_MealTurnipSalad.description>
+  <!-- EN: rimshroom bundle -->
+  <SRV_MushroomBundle.label>rimshroom bundle</SRV_MushroomBundle.label>
+  <!-- EN: Edible mushrooms. Can be eaten as a source of protein. -->
+  <SRV_MushroomBundle.description>Edible mushrooms. Can be eaten as a source of protein.</SRV_MushroomBundle.description>
+  <!-- EN: pickled cabbage -->
+  <SRV_PickledCabbage.label>pickled cabbage</SRV_PickledCabbage.label>
+  <!-- EN: Cabbage preserved in vinegar to prevent rotting. Can be eaten by itself, or used in meals. -->
+  <SRV_PickledCabbage.description>Cabbage preserved in vinegar to prevent rotting. Can be eaten by itself, or used in meals.</SRV_PickledCabbage.description>
+  <!-- EN: pickled vegetables -->
+  <SRV_PickledGeneric.label>pickled vegetables</SRV_PickledGeneric.label>
+  <!-- EN: Vegetables preserved in vinegar to prevent rotting. Can be eaten by themselves, or used in meals. -->
+  <SRV_PickledGeneric.description>Vegetables preserved in vinegar to prevent rotting. Can be eaten by themselves, or used in meals.</SRV_PickledGeneric.description>
+  <!-- EN: pickled turnips -->
+  <SRV_PickledTurnip.label>pickled turnips</SRV_PickledTurnip.label>
+  <!-- EN: Turnips preserved in vinegar to prevent rotting. Can be eaten by themselves, or used in meals. -->
+  <SRV_PickledTurnip.description>Turnips preserved in vinegar to prevent rotting. Can be eaten by themselves, or used in meals.</SRV_PickledTurnip.description>
+  <!-- EN: prickly pear -->
+  <SRV_PricklyPear.label>prickly pear</SRV_PricklyPear.label>
+  <!-- EN: Raw cactus fruit. -->
+  <SRV_PricklyPear.description>Raw cactus fruit.</SRV_PricklyPear.description>
+  <!-- EN: smoked cheese -->
+  <SRV_SmokedCheese.label>smoked cheese</SRV_SmokedCheese.label>
+  <!-- EN: Cheese that has been smoked to preserve it and enhance its flavor. Lasts a long time without refrigeration. -->
+  <SRV_SmokedCheese.description>Cheese that has been smoked to preserve it and enhance its flavor. Lasts a long time without refrigeration.</SRV_SmokedCheese.description>
+  <!-- EN: smoked meat -->
+  <SRV_SmokedMeat.label>smoked meat</SRV_SmokedMeat.label>
+  <!-- EN: Slowly smoked meat. Tasty, and lasts a very long time without refrigeration. -->
+  <SRV_SmokedMeat.description>Slowly smoked meat. Tasty, and lasts a very long time without refrigeration.</SRV_SmokedMeat.description>
+  <!-- EN: turnip -->
+  <SRV_Turnip.label>turnip</SRV_Turnip.label>
+  <!-- EN: Raw turnips. -->
+  <SRV_Turnip.description>Raw turnips.</SRV_Turnip.description>
+  <!-- EN: turnip greens -->
+  <SRV_Turnip_Green.label>turnip greens</SRV_Turnip_Green.label>
+  <!-- EN: Edible leaves from the turnip plant. -->
+  <SRV_Turnip_Green.description>Edible leaves from the turnip plant.</SRV_Turnip_Green.description>
+</LanguageData>

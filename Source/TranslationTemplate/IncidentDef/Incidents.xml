@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mushroom sprout sprout -->
+  <SRV_MushroomSprout.label>mushroom sprout sprout</SRV_MushroomSprout.label>
+  <!-- EN: Mushroom sprout -->
+  <SRV_MushroomSprout.letterLabel>Mushroom sprout</SRV_MushroomSprout.letterLabel>
+  <!-- EN: A group of mushrooms have sprouted from underground! If you wait for the mushrooms to grow, you'll be able to harvest them for a source of protein. -->
+  <SRV_MushroomSprout.letterText>A group of mushrooms have sprouted from underground! If you wait for the mushrooms to grow, you'll be able to harvest them for a source of protein.</SRV_MushroomSprout.letterText>
+</LanguageData>

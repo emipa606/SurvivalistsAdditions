@@ -1,0 +1,118 @@
+ManifestFileVersion: 0
+CRC: 693977343
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 541a9f0b902cba847d8cb57478d66efd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 541a9f0b902cba847d8cb57478d66efd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_eastm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_eastm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/JuteFiber/JuteFiber_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Structure/WallShelter_Atlas.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedJute/SeedJute_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Meals/MealTurnipSalad.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/Bellows/Bellows_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Cabbage/Cabbage_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Structure/WallShelter_MenuIcon.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Structure/DoorShelter_Mover.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/PlantTurnip.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Burlap.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/UI/Commands/Charcoal.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Jute/JuteA.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/FermentingBarrel/FermentingBarrel_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedHayreed/SeedHayreed_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_northm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/Bellows/Bellows_eastm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Turnip_Full.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/CraftingTable/CraftingTable_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_southm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Grill/Grill_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/SmokedMeat.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Mushroom/MushroomC.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/JuteFiber/JuteFiber_c.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/SnareArmed.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Furniture/SimpleTable/SimpleTable_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Structure/DoorShelter_MenuIcon.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Cabbage/Cabbage_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/ShelterHeater_m.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Vinegar/Vinegar_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/LeafTurnip/LeafTurnip_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/CharcoalPit/EmptyPit.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_southm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedCabbage/SeedCabbage_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Turnip/Turnip_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Equipment/Shemagh/Shemagh_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Meals/GrilledMealMeat.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/CurdledMilk.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedHayreed/SeedHayreed_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Equipment/Shemagh/Shemagh_south.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Charcoal.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_northm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/CraftingTable/CraftingTable_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Unfinished/UnfinishedSmelt.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_MenuIcon.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/PickledTurnip.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedTurnip/SeedTurnip_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_south.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Juice_Vinegar.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Mushroom/MushroomA.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Meals/GrilledMealFine.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Turnip/Turnip_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/PickledGeneric.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Grill/Grill_eastm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Mushroom.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/FermentingBarrel/FermentingBarrel_northm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Furniture/StumpChair.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/SaguaroCactus_Blooming/SaguaroCactus_Blooming.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Hayreed/HayreedA.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/FermentingBarrel/FermentingBarrel_eastm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Equipment/Shemagh/Shemagh_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/SnareUnarmed.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Grill/Grill_northm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Furniture/SimpleTable/SimpleTable_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Null.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Jute/JuteB.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/ShelterHeater.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Jute/JuteC.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/PricklyPear.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/LeafTurnip/LeafTurnip_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedJute/SeedJute_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Hayreed/HayreedB.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Cheese.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/ShelterHeater_MenuIcon.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedCabbage/SeedCabbage_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Seeds/SeedTurnip/SeedTurnip_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/PickledCabbage.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/Bellows/Bellows_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/CharcoalPit/FullPit.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Hayreed/HayreedC.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_south.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Meals/GrilledMealVeg.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/PlantCabbage.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Utility/Bellows/Bellows_northm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/FermentingBarrel/FermentingBarrel_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Grill/Grill_north.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Equipment/Shemagh/Shemagh_Icon.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Forge/Forge_east.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/JuteFiber/JuteFiber_b.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Material/Vinegar/Vinegar_a.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/Meals/MealCabbageSalad.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Hayreed/HayreedD.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Station/Smoker/Smoker_MenuIconm.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Object/Plant/Mushroom/MushroomB.png
+- Assets/Data/Mlie.SurvivalistsAdditions/Textures/Cupro/Item/Usable/SmokedCheese.png
+Dependencies: []

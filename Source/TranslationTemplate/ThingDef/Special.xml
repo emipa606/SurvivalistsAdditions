@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: turnip spawner -->
+  <SRV_TurnipItemSpawner.label>turnip spawner</SRV_TurnipItemSpawner.label>
+  <!-- EN: null -->
+  <SRV_TurnipItemSpawner.description>null</SRV_TurnipItemSpawner.description>
+  <!-- EN: Unfinished smelt -->
+  <SRV_UnfinishedSmelt.label>Unfinished smelt</SRV_UnfinishedSmelt.label>
+</LanguageData>

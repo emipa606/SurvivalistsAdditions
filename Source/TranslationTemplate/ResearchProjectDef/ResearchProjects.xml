@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: forge: crucible upgrade -->
+  <SRV_Crucible.label>forge: crucible upgrade</SRV_Crucible.label>
+  <!-- EN: Allows colonists to smelt metals at the forge. -->
+  <SRV_Crucible.description>Allows colonists to smelt metals at the forge.</SRV_Crucible.description>
+  <!-- EN: forge -->
+  <SRV_Forge.label>forge</SRV_Forge.label>
+  <!-- EN: Allows colonists to build a forge for turning raw metal ingredients into weapons. -->
+  <SRV_Forge.description>Allows colonists to build a forge for turning raw metal ingredients into weapons.</SRV_Forge.description>
+  <!-- EN: snares -->
+  <SRV_Snare.label>snares</SRV_Snare.label>
+  <!-- EN: Allows colonists to build snares for passive hunting. -->
+  <SRV_Snare.description>Allows colonists to build snares for passive hunting.</SRV_Snare.description>
+</LanguageData>

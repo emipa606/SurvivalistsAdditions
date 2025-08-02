@@ -7,7 +7,7 @@ public class IncidentWorker_MushroomSprout : IncidentWorker
 {
     private const int MinRoomCells = 25;
     private const int SpawnRadius = 6;
-    private static readonly IntRange CountRange = new IntRange(10, 20);
+    private static readonly IntRange CountRange = new(10, 20);
 
     protected override bool CanFireNowSub(IncidentParms parms)
     {
@@ -42,10 +42,7 @@ public class IncidentWorker_MushroomSprout : IncidentWorker
             plant?.Destroy();
 
             var thing2 = GenSpawn.Spawn(SrvDefOf.SRV_Mushroom, intVec, map);
-            if (thing == null)
-            {
-                thing = thing2;
-            }
+            thing ??= thing2;
         }
 
         if (thing == null)
@@ -58,14 +55,14 @@ public class IncidentWorker_MushroomSprout : IncidentWorker
     }
 
 
-    private bool TryFindRootCell(Map map, out IntVec3 cell)
+    private static bool TryFindRootCell(Map map, out IntVec3 cell)
     {
         return CellFinderLoose.TryFindRandomNotEdgeCellWith(10,
             x => CanSpawnAt(x, map) && x.GetRoom(map).CellCount >= MinRoomCells, map, out cell);
     }
 
 
-    private bool CanSpawnAt(IntVec3 c, Map map)
+    private static bool CanSpawnAt(IntVec3 c, Map map)
     {
         if (!c.Standable(map) || c.Fogged(map) || c.GetEdifice(map) != null || c.GetRoom(map).OpenRoofCount > 0 ||
             map.terrainGrid.TerrainAt(c).layerable || !map.terrainGrid.TerrainAt(c).defName.Contains("Rough"))

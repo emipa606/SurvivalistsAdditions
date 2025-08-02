@@ -4,9 +4,9 @@ namespace SurvivalistsAdditions;
 
 public sealed class ThingCountExposable : IExposable
 {
-    public int count;
+    private int count;
 
-    public ThingDef thingDef;
+    private ThingDef thingDef;
 
 
     public ThingCountExposable()

@@ -12,7 +12,7 @@ public class Building_Snare : Building_TrapDamager
     private bool rearmAfterCleared;
     public float stunDuration = 20;
 
-    public bool KnowsOfSnare(Pawn p)
+    private bool KnowsOfSnare(Pawn p)
     {
         if (p.Faction == null && p.RaceProps.Animal)
         {
@@ -22,7 +22,7 @@ public class Building_Snare : Building_TrapDamager
         return KnowsOfTrap(p);
     }
 
-    private bool IsValidAnimal(Pawn p)
+    private static bool IsValidAnimal(Pawn p)
     {
         if (!p.RaceProps.Animal)
         {
@@ -155,9 +155,9 @@ public class Building_Snare : Building_TrapDamager
 
     #region properties
 
-    public int Difficulty => 1;
+    private static int Difficulty => 1;
 
-    public float FailChance => SrvSettings.Snare_FailChance * Difficulty / 100f;
+    private static float FailChance => SrvSettings.Snare_FailChance * Difficulty / 100f;
 
     public float BreakChance => SrvSettings.Snare_BreakChance * Difficulty / 100f;
 
@@ -172,7 +172,7 @@ public class Building_Snare : Building_TrapDamager
     }
 
 
-    public override void Tick()
+    protected override void Tick()
     {
         if (!Spawned)
         {
@@ -216,7 +216,7 @@ public class Building_Snare : Building_TrapDamager
         return KnowsOfSnare(p) ? (ushort)30 : (ushort)0;
     }
 
-    public override ushort PathFindCostFor(Pawn p)
+    public new ushort PathFindCostFor(Pawn p)
     {
         return !KnowsOfSnare(p) ? (ushort)0 : (ushort)800;
     }

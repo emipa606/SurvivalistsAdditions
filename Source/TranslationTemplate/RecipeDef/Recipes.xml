@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: smelt metal from slag -->
+  <SRV_ExtractMetalFromSlag.label>smelt metal from slag</SRV_ExtractMetalFromSlag.label>
+  <!-- EN: Use intense heat to separate useful metal from slag chunks. -->
+  <SRV_ExtractMetalFromSlag.description>Use intense heat to separate useful metal from slag chunks.</SRV_ExtractMetalFromSlag.description>
+  <!-- EN: Smelting metal from slag. -->
+  <SRV_ExtractMetalFromSlag.jobString>Smelting metal from slag.</SRV_ExtractMetalFromSlag.jobString>
+  <!-- EN: make burlap from agave -->
+  <SRV_MakeBurlapAgave.label>make burlap from agave</SRV_MakeBurlapAgave.label>
+  <!-- EN: Process raw agave into burlap. Makes 8 burlap cloth. -->
+  <SRV_MakeBurlapAgave.description>Process raw agave into burlap. Makes 8 burlap cloth.</SRV_MakeBurlapAgave.description>
+  <!-- EN: Processing burlap. -->
+  <SRV_MakeBurlapAgave.jobString>Processing burlap.</SRV_MakeBurlapAgave.jobString>
+  <!-- EN: make burlap from jute -->
+  <SRV_MakeBurlapJute.label>make burlap from jute</SRV_MakeBurlapJute.label>
+  <!-- EN: Process jute fibers into burlap. Makes 8 burlap cloth. -->
+  <SRV_MakeBurlapJute.description>Process jute fibers into burlap. Makes 8 burlap cloth.</SRV_MakeBurlapJute.description>
+  <!-- EN: Processing burlap. -->
+  <SRV_MakeBurlapJute.jobString>Processing burlap.</SRV_MakeBurlapJute.jobString>
+  <!-- EN: make curdled milk for cheese -->
+  <SRV_MakeCurdledMilk.label>make curdled milk for cheese</SRV_MakeCurdledMilk.label>
+  <!-- EN: Make curdled milk for fermenting and aging into cheese. -->
+  <SRV_MakeCurdledMilk.description>Make curdled milk for fermenting and aging into cheese.</SRV_MakeCurdledMilk.description>
+  <!-- EN: Making curdled milk. -->
+  <SRV_MakeCurdledMilk.jobString>Making curdled milk.</SRV_MakeCurdledMilk.jobString>
+  <!-- EN: make burlap from jute -->
+  <SRV_MakeSlowBurlapJute.label>make burlap from jute</SRV_MakeSlowBurlapJute.label>
+  <!-- EN: Process jute fibers into burlap by hand. Makes 6 burlap cloth. -->
+  <SRV_MakeSlowBurlapJute.description>Process jute fibers into burlap by hand. Makes 6 burlap cloth.</SRV_MakeSlowBurlapJute.description>
+  <!-- EN: Processing burlap. -->
+  <SRV_MakeSlowBurlapJute.jobString>Processing burlap.</SRV_MakeSlowBurlapJute.jobString>
+  <!-- EN: make juice for vinegar -->
+  <SRV_MakeVinegarJuice.label>make juice for vinegar</SRV_MakeVinegarJuice.label>
+  <!-- EN: Make concentrated juice for fermenting into vinegar. -->
+  <SRV_MakeVinegarJuice.description>Make concentrated juice for fermenting into vinegar.</SRV_MakeVinegarJuice.description>
+  <!-- EN: Making vinegar juice. -->
+  <SRV_MakeVinegarJuice.jobString>Making vinegar juice.</SRV_MakeVinegarJuice.jobString>
+</LanguageData>

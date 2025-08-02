@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: jute -->
+  <SRV_CultivatedJute.label>jute</SRV_CultivatedJute.label>
+  <!-- EN: A tall plant that grows in very wet areas. The stalks of the plant are used for making burlap cloth or animal feed. -->
+  <SRV_CultivatedJute.description>A tall plant that grows in very wet areas. The stalks of the plant are used for making burlap cloth or animal feed.</SRV_CultivatedJute.description>
+  <!-- EN: hayreed -->
+  <SRV_Hayreed.label>hayreed</SRV_Hayreed.label>
+  <!-- EN: A wild plant that grows alongside rivers and ponds. The plant makes a great source of hay. -->
+  <SRV_Hayreed.description>A wild plant that grows alongside rivers and ponds. The plant makes a great source of hay.</SRV_Hayreed.description>
+  <!-- EN: rimshroom -->
+  <SRV_Mushroom.label>rimshroom</SRV_Mushroom.label>
+  <!-- EN: A rare mushroom found in caves. Can be harvested for a source of protein. -->
+  <SRV_Mushroom.description>A rare mushroom found in caves. Can be harvested for a source of protein.</SRV_Mushroom.description>
+  <!-- EN: cabbage plant -->
+  <SRV_PlantCabbage.label>cabbage plant</SRV_PlantCabbage.label>
+  <!-- EN: A hardy plant with a large leafy bulb. Requires good soil, but is able to grow in lower temperatures than normal plants. -->
+  <SRV_PlantCabbage.description>A hardy plant with a large leafy bulb. Requires good soil, but is able to grow in lower temperatures than normal plants.</SRV_PlantCabbage.description>
+  <!-- EN: turnip plant -->
+  <SRV_PlantTurnip.label>turnip plant</SRV_PlantTurnip.label>
+  <!-- EN: A hardy root vegetable with edible leaves. Requires good soil, but is able to grow in lower temperatures than normal plants. -->
+  <SRV_PlantTurnip.description>A hardy root vegetable with edible leaves. Requires good soil, but is able to grow in lower temperatures than normal plants.</SRV_PlantTurnip.description>
+  <!-- EN: jute -->
+  <SRV_WildJute.label>jute</SRV_WildJute.label>
+  <!-- EN: A tall plant that grows in very wet areas. The stalks of the plant are used for making burlap cloth or animal feed. -->
+  <SRV_WildJute.description>A tall plant that grows in very wet areas. The stalks of the plant are used for making burlap cloth or animal feed.</SRV_WildJute.description>
+</LanguageData>

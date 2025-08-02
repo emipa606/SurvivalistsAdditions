@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: forge -->
+  <SRV_Forge.label>forge</SRV_Forge.label>
+  <!-- EN: An ancient structure used for heating up metal and working it into useful tools. -->
+  <SRV_Forge.description>An ancient structure used for heating up metal and working it into useful tools.</SRV_Forge.description>
+  <!-- EN: grill -->
+  <SRV_Grill.label>grill</SRV_Grill.label>
+  <!-- EN: A small grill used to cook food. Requires fuel to cook. -->
+  <SRV_Grill.description>A small grill used to cook food. Requires fuel to cook.</SRV_Grill.description>
+  <!-- EN: camp crafting table -->
+  <SRV_TableCamp.label>camp crafting table</SRV_TableCamp.label>
+  <!-- EN: A lightweight collapsible table for doing simple tasks while traveling. -->
+  <SRV_TableCamp.description>A lightweight collapsible table for doing simple tasks while traveling.</SRV_TableCamp.description>
+</LanguageData>

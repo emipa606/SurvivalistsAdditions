@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Grilled -->
+  <srv_grilled.label>Grilled</srv_grilled.label>
+  <!-- EN: Pickled -->
+  <srv_pickled.label>Pickled</srv_pickled.label>
+  <!-- EN: Salad -->
+  <srv_salad.label>Salad</srv_salad.label>
+</LanguageData>
