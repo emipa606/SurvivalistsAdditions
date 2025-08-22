@@ -110,6 +110,7 @@
     <blockLight>true</blockLight>
     <canOverlapZones>false</canOverlapZones>
     <building>
+      <supportsWallAttachments>true</supportsWallAttachments>
       <isInert>true</isInert>
       <blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
