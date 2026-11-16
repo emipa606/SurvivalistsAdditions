@@ -8,7 +8,6 @@
   <SRV_NotificationType_SilentText>Texte silencieux</SRV_NotificationType_SilentText>
   <SRV_NotificationType_TextWithSound>Texte avec son</SRV_NotificationType_TextWithSound>
   <SRV_NotificationType_Letter>Lettre</SRV_NotificationType_Letter>
-  <SRV_LetterSnareTriggeredLabel>{Pris au piège !</SRV_LetterSnareTriggeredLabel>
   <SRV_LetterSnareTriggered>Un {0} a été capturé. Les colons peuvent achever ou sauver l'animal pendant qu'il est pris au piège.</SRV_LetterSnareTriggered>
   <SRV_LetterSnareTriggeredColony>{0} s'est égaré dans un piège et a besoin d'être secouru.</SRV_LetterSnareTriggeredColony>
   <SRV_MenuOption_DisableSnare>Désactiver la caisse claire</SRV_MenuOption_DisableSnare>
@@ -69,4 +68,5 @@
   <!-- Charcoal Pit -->
   <!-- Settings Labels -->
   <!-- Settings Tooltips -->
+  <SRV_LetterSnareTriggeredLabel>{0} Piégé !</SRV_LetterSnareTriggeredLabel>
 </LanguageData>

@@ -22,11 +22,7 @@ public class JobDriver_DisableSnare : JobDriver
 
         yield return new Toil
         {
-            initAction = delegate
-            {
-                _ = (Building_Snare)GetActor().CurJob.GetTarget(TargetIndex.A).Thing;
-                //snare.Disable();
-            },
+            initAction = delegate { _ = (Building_Snare)GetActor().CurJob.GetTarget(TargetIndex.A).Thing; },
             defaultCompleteMode = ToilCompleteMode.Instant
         };
     }

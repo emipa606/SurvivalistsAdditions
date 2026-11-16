@@ -7,18 +7,15 @@ namespace SurvivalistsAdditions;
 
 public class HardyPlant : Plant
 {
-    private HardyPlantStats ext;
-
-
     private string hardyCachedLabelMouseover;
 
     private HardyPlantStats Ext
     {
         get
         {
-            if (ext != null)
+            if (field != null)
             {
-                return ext;
+                return field;
             }
 
             if (!def.HasModExtension<HardyPlantStats>())
@@ -28,9 +25,9 @@ public class HardyPlant : Plant
                 def.modExtensions.Add(new HardyPlantStats());
             }
 
-            ext = def.GetModExtension<HardyPlantStats>();
+            field = def.GetModExtension<HardyPlantStats>();
 
-            return ext;
+            return field;
         }
     }
 
@@ -145,15 +142,6 @@ public class HardyPlant : Plant
                     }
                 }
             }
-            //Spawn new plants
-            //if (def.plant.reproduces && growthInt >= 0.6f && Rand.MTBEventOccurs(def.plant.reproduceMtbDays, 60000f, 2000f))
-            //{
-            //    if (!PlantUtility.SnowAllowsPlanting(Position, Map))
-            //    {
-            //        return;
-            //    }
-            //    GenSpawn.Spawn(plant, Position, Map);
-            //}
         }
 
         hardyCachedLabelMouseover = null;

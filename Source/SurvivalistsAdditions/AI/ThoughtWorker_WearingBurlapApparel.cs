@@ -19,10 +19,7 @@ public class ThoughtWorker_WearingBurlapApparel : ThoughtWorker
                 continue;
             }
 
-            if (text == null)
-            {
-                text = apparel.def.label;
-            }
+            text ??= apparel.def.label;
 
             num++;
         }

@@ -6,4 +6,67 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="SurvivalistsAdditions/SurvivalistsAdditions.csproj" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Plants.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Processes.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Special.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Messages.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/JobDefs/">
+    <File Path="../1.7/Defs/JobDefs/Jobs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Equipment.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Materials.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Processors.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Usables.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingCategories/">
+    <File Path="../1.7/Defs/ThingCategories/ThingCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Food.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WorkGiverDefs/">
+    <File Path="../1.7/Defs/WorkGiverDefs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MapGeneration/">
+    <File Path="../1.7/Defs/MapGeneration/MapGen.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchTabs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThoughtDefs/">
+    <File Path="../1.7/Defs/ThoughtDefs/Thoughts.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Hediffs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Objects/">
+    <File Path="../1.7/Defs/ThingDefs_Objects/Furniture.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Objects/Stations.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Objects/Structure.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Objects/Utility.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/IncidentDefs/">
+    <File Path="../1.7/Defs/IncidentDefs/Incidents.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/owlchemist.simplefxsmoke.xml" />
+    <File Path="../1.7/Patches/Patches_Core.xml" />
+    <File Path="../1.7/Patches/Patches_MedievalTimes.xml" />
+    <File Path="../1.7/Patches/Patches_Seeds.xml" />
+    <File Path="../1.7/Patches/Patches_TribalAdditions.xml" />
+    <File Path="../1.7/Patches/Patches_Universal.xml" />
+    <File Path="../1.7/Patches/Patches_VG.xml" />
+    <File Path="../1.7/Patches/Patches_ZEN.xml" />
+    <File Path="../1.7/Patches/UF_integration.xml" />
+  </Folder>
 </Solution>

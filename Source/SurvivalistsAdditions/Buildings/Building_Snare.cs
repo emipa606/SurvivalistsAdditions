@@ -12,6 +12,12 @@ public class Building_Snare : Building_TrapDamager
     private bool rearmAfterCleared;
     public float stunDuration = 20;
 
+    private static int Difficulty => 1;
+
+    private static float FailChance => SrvSettings.Snare_FailChance * Difficulty / 100f;
+
+    public float BreakChance => SrvSettings.Snare_BreakChance * Difficulty / 100f;
+
     private bool KnowsOfSnare(Pawn p)
     {
         if (p.Faction == null && p.RaceProps.Animal)
@@ -126,44 +132,32 @@ public class Building_Snare : Building_TrapDamager
             return;
         }
 
-        // If the notification type is SilentText
-        if (SrvSettings.Snare_NotificationType == NotificationType.SilentText)
+        switch (SrvSettings.Snare_NotificationType)
         {
-            Messages.Message("SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
-                new TargetInfo(Position, Map),
-                MessageTypeDefOf.SilentInput
-            );
-        }
-        // If the notification type is TextWithSound
-        else if (SrvSettings.Snare_NotificationType == NotificationType.TextWithSound)
-        {
-            Messages.Message("SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
-                new TargetInfo(Position, Map),
-                isPositive ? MessageTypeDefOf.PositiveEvent : MessageTypeDefOf.NegativeEvent
-            );
-        }
-        // If the notification type is Letter
-        else
-        {
-            Find.LetterStack.ReceiveLetter("SRV_LetterSnareTriggeredLabel".Translate(p.LabelShort, p),
-                "SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
-                isPositive ? LetterDefOf.PositiveEvent : LetterDefOf.NegativeEvent,
-                new TargetInfo(Position, Map)
-            );
+            // If the notification type is SilentText
+            case NotificationType.SilentText:
+                Messages.Message("SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
+                    new TargetInfo(Position, Map),
+                    MessageTypeDefOf.SilentInput
+                );
+                break;
+            // If the notification type is TextWithSound
+            case NotificationType.TextWithSound:
+                Messages.Message("SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
+                    new TargetInfo(Position, Map),
+                    isPositive ? MessageTypeDefOf.PositiveEvent : MessageTypeDefOf.NegativeEvent
+                );
+                break;
+            // If the notification type is Letter
+            default:
+                Find.LetterStack.ReceiveLetter("SRV_LetterSnareTriggeredLabel".Translate(p.LabelShort, p),
+                    "SRV_LetterSnareTriggered".Translate(p.LabelShort, p),
+                    isPositive ? LetterDefOf.PositiveEvent : LetterDefOf.NegativeEvent,
+                    new TargetInfo(Position, Map)
+                );
+                break;
         }
     }
-
-    #region properties
-
-    private static int Difficulty => 1;
-
-    private static float FailChance => SrvSettings.Snare_FailChance * Difficulty / 100f;
-
-    public float BreakChance => SrvSettings.Snare_BreakChance * Difficulty / 100f;
-
-    #endregion
-
-    #region Overrides
 
     public override void ExposeData()
     {
@@ -251,6 +245,4 @@ public class Building_Snare : Building_TrapDamager
 
         base.SpringSub(p);
     }
-
-    #endregion
 }

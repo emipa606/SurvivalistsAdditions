@@ -31,31 +31,16 @@ public class PatchOperationModDependent : PatchOperation
 
     private bool ApplyWorker_Multiple()
     {
-        foreach (var requiredMod in requiredModsList)
-        {
-            if (ModsConfig.ActiveModsInLoadOrder.All(mod => mod.Name != requiredMod))
-            {
-                return false;
-            }
-        }
-
-        return true;
+        return requiredModsList.All(requiredMod =>
+            ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name == requiredMod));
     }
 
 
     private bool ApplyWorker_GetAny()
     {
-        foreach (var optionalMod in optionalModsList)
-        {
-            if (ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name == optionalMod))
-            {
-                return true;
-            }
-        }
-
-        return false;
+        return optionalModsList.Any(optionalMod =>
+            ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name == optionalMod));
     }
-
 
     private bool ApplyWorker_Single()
     {
